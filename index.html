@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ENIGMA</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js">
+
+</head>
+<body>
+
+<div class="timeline-container" id="timeline-1">
+  <div class="timeline-header">
+    <h2 class="timeline-header__title">Alan Turing: THE ENIGMA</h2>
+    <h3 class="timeline-header__subtitle">THE 2ND WORD WAR</h3>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item" data-text="SUNKEN THE COURAGEOUS">
+      <div class="timeline__content"><img class="timeline__img" src="img/courageous.jpg"/>
+        <h2 class="timeline__content-title">1939</h2>
+        <p class="timeline__content-desc">제 2차 세계대전 당시 본국함대 소속으로 참가한 카레이저스는 전쟁이 시작된지 얼마 안된 1939년 9월 17일에 아일랜드 연안에서 초계활동 중 독일 잠수함[U29]의 어뢰 공격을 받았다.<br> U29는 3발의 어뢰를 발사했는데 2발이 카레이저스에 명중하여 침수가 발생해 탄약고가 폭발했다. 결국 카레이저스는 어뢰를 맞은 후 15분만에 침몰하고 말았는데 수병 518명이 함께 전사하고 말았다.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="SUNKEN THE GLORIOUS">
+      <div class="timeline__content"><img class="timeline__img" src="img/glori.jpg"/>
+        <h2 class="timeline__content-title">1940</h2>
+        <p class="timeline__content-desc">1940년 6월 8일 노르웨이 인근에서 영국의 항공모함 글로이어스호가 독일의 순양함 샤른호스트호에 격침당했다.<br>사실 독일의 암호 분석기관인 정찰과에서는 1938년부터 줄곧 영국과 프랑스의 수 많은 통신을 해독해 왔었고, 영국의 작전첩보센터는 독일 전함의 위치는 말할 것도 없이 글로리어스호의 위치도 모르고 있다가 독일의 승전 보도를 통해 항공모함 격침 소식을 들었다.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="UNUSED THE BOMBE">
+      <div class="timeline__content"><img class="timeline__img" src="img/letter_1.png"/>
+        <h2 class="timeline__content-title">1940</h2>
+        <p class="timeline__content-desc">노르웨이 사태로 브래츨리 파크도 전쟁에 돌입하였다.<br>독일 공군의 주요 암호와 3군 암호키를 수작업으로 해독하였으나 큰 도음은 되지 못하였다. 이에 앨런의 해군 에니그마 분석 작업에 도움이 될만한 기회는 무산되었고, 천공용지는 거의 무용지물이 되었다.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="THE BOMBE OPERATION">
+      <div class="timeline__content"><img class="timeline__img" src="img/bome.jpeg"/>
+        <h2 class="timeline__content-title">1940</h2>
+        <p class="timeline__content-desc">1940년 5월 1일, 독일이 암호체계를 바꾸고 며칠이 지나지 않아 실수가 있었다. 독일이 실수로 옛날 암호체계와 새로운 암호 체계 두가지로 메세지 송신을 한 것. <br> 5월 22일 영국은 독일 공군이 주로 사용하는 전파 신호의 새로운 암호체계를 찾아냈고 앨런의 봄브 한대가 가동하기 시작하면서 사실상 매일같이 암호를 해독했다.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="CODE-BREAKING">
+      <div class="timeline__content">
+        <script> 
+          function ViewLayer(){
+            document.getElementById("code").style.display='inline';
+          }
+          function closeLayer(){
+            document.getElementById("code").style.display='none';
+          }
+  
+          </script>
+          <img src="img/codee.png" style="cursor:hand;" onclick="javascript:ViewLayer();">
+          <img  src="img/closebtn.png" onclick="javascript:closeLayer();" style="width:5%; float: right;">
+
+          <div id="code" style='position:absolute;   z-index:1; display:none; z-index:auto;'>
+            <img src="img/1code.png" alt="">
+          </div>
+      
+        <h2 class="timeline__content-title">1941</h2>
+        <p class="timeline__content-desc">1941년 2월 23일 노르웨이 연안 로포텐제도를 공격하면서 누군가 앨런에게 필요한 설명서를 위해 목숨을 바쳤다. <br><I> "독일의 무장 트롤선 크렙스호가 항해 불능 상태에 빠졌다. 지휘관은 비밀 문서를 완전히 파괴하기 전에 사살되었고, 목숨을 건진 선원들은 배를 버리고 달아났다."</I><br> 이로써 2월의 모든 해군 통신을 해독할 충분한 양의 문서가 확보되었다.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="LAST BATTLE OF THE BATTLESHIP BISMARCK">
+      <div class="timeline__content"><img class="timeline__img" src="img//bismarck.jpg"/>
+        <h2 class="timeline__content-title">1941</h2>
+        <p class="timeline__content-desc">1941년 독일의 비스마르크호가 출항하자 영국 해군이 추격에 나서면서 5월 18일부터 27일까지 대서양에서 벌어진 작전이다. 결국 영국 해군이 비스마르크를 격침시키면서 종료되었는데, 독일의 보급선 8척중 7척을 침몰시키며 거의 일망타진했다고 볼 수 있다. 이후 독일 당국은 보급선의 위치가 누설되었다고 판단, 원인을 조사하였으나 에니그마 암호 해독 가능성을 제로로 보고 에니그마가 깨진 가능성은 제외하였다.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="4TH ROTOR">
+      <div class="timeline__content"><img class="timeline__img" src="img/4rotor.jpeg"/>
+        <h2 class="timeline__content-title">1942</h2>
+        <p class="timeline__content-desc">1942년 2월 1일, 독일의 새로운 에니그마 체계가 등장하였다. 독일은 4개의 회전판과 2개의 반사판을 동시에 사용하는 신모델 에니그마를 사용하기 시작했다. 영국은 기존 암호를 '돌고래'로, 새로운 암호를 '상어'라 부르며 12월 어느날 독일의 실수로 네번째 회전자의 배선을 알아내어 독일의 60개의 암호체계가 깨지면서 1분에 하나씩, 매달 5만건의 메세지를 해독하였다.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="OPERATION TORCH">
+      <div class="timeline__content"><img class="timeline__img" src="img/operation.jpg"/>
+        <h2 class="timeline__content-title">1942</h2>
+        <p class="timeline__content-desc">1942년 11월 8일 미국과 영국군의 전격적인 기습작전으로 프랑스령 북아프리카를 침공하였다. 이 작전을 횃불작전이라 하는데, 이 시기 유능한 이중 간첩 푸홀 가르시아의 공이 컸다. <br>이는 독일군에게 연합군 해군의 이동상황에 대한 정보를 넘겨주었으나 그 시기가 너무 늦어 독일군에게는 아무 도움도 되지 못했으나 독일군의 신뢰를 얻어 독일군 암호 해독에 필요한 정보를 제공했다.
+        </p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="MAY OF DARKNESS">
+      <div class="timeline__content"><img class="timeline__img" src="img/may.jpeg"/>
+        <h2 class="timeline__content-title">1943</h2>
+        <p class="timeline__content-desc">1943년 5월 한달동안 독일은 43척의 유보트를 잃을 정도로 빠르게 역전당했다. 1945년 5월 2일 베를린이 함락되었고,<br> 5월 4일 멸망을 앞둔 제삼제국의 새로운 총통, 카를 되니츠가 독일 북부의 독일군은 영국군에 항복한다는 조건부 항복문서에 서명하였다. <br><I>"모든 U-BOAT에 전달한다. 모든 공격을 중지하라. 연합군 선단에 대한 모든 적대적 행위를 중단하라. 카를 되니츠 이상"</I><br> 이로써 잠수함 전투는 공식적으로 종료되었다.</p>
+      </div>
+    </div>
+   
+    </div>
+  </div>
+</div>
+<div class="demo-footer"><a href="https://search.shopping.naver.com/book/catalog/32485428620?cat_id=50005671&frm=PBOKPRO&query=%EC%95%A8%EB%9F%B0+%ED%8A%9C%EB%A7%81%EC%9D%98+%EC%9D%B4%EB%AF%B8%ED%85%8C%EC%9D%B4%EC%85%98+%EA%B2%8C%EC%9E%84&NaPm=ct%3Dliffhho8%7Cci%3D2d18a55f320ee385fbd5cd28c95bd835d7fcca29%7Ctr%3Dboknx%7Csn%3D95694%7Chk%3D5cae8ff0113abc982d11a3b531ade9dd0792a905" target="_blank">Book/ALAN TURING: THE ENIGMA</a></div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="script.js"></script>
+
+</body>
+</html>
+
+
